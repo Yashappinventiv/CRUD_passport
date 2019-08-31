@@ -1,0 +1,33 @@
+{
+    "student": [
+        {
+            "name": "Yash",
+            "age": 21,
+            "user_id": 1,
+            "subject_attended": [
+                "math01",
+                "phy01"
+            ]
+        },
+        {
+            "name": "Ankit",
+            "age": 21,
+            "username": "ankit123",
+            "password": "123",
+            "subject_attended": [
+                "math01"
+            ],
+            "user_id": 2
+        }
+    ],
+    "subject": [
+        {
+            "id": "math01",
+            "name": "mathematics"
+        },
+        {
+            "id": "phys01",
+            "name": "physics"
+        }
+    ]
+}

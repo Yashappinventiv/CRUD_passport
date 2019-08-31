@@ -1,0 +1,12 @@
+[
+    {
+        "username": "yash@gmail.com",
+        "password": "$2b$10$3eijs4JQyl8qG.QGXU0hweq0kme/gW7qGsTwi61Cx52UqiIyaNFuq",
+        "id": 1
+    },
+    {
+        "username": "ankit@gmail.com",
+        "password": "$2b$10$j.Ya.3XoHlWOD//2Nna0lOWt/lrOWPe4vQvYMEzUPdx7Be24/HmIi",
+        "id": 2
+    }
+]
