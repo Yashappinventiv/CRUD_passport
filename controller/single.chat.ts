@@ -20,5 +20,10 @@ try{
 }
 
 export async function singleMessage(socket : any , data  : { room: string, id: number, message: string }){
-
+  if(data.room && data.id && data.message){
+     await messageGroup(data.room , {id : data.id , message : data.message})
+    return  socket.broadcast.in(data.room).emit('messageSingle' , `${data.message} sent by ${data.id}`)
+    
+    
+}
 }
