@@ -3,7 +3,7 @@
 <h1>How to use</h1>
 <p><marker>Start the server using npm start</marker></p>
 
-<div>
+<div style =  "background-color : grey ; ">
 <p>
   <br>
 import express from 'express' <br>
